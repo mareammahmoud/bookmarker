@@ -1,0 +1,87 @@
+body {
+    background-color: #f7ecde;
+}
+
+h1 {
+    font-family: "Pacifico", cursive;
+}
+
+.HEAD {
+    border-style: dotted;
+    border-color: black;
+}
+
+h3 {
+    background: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+.icon {
+    font-size: 30px;
+    color: #b5ac49;
+
+}
+
+.icon2 {
+    font-size: 30px;
+    color: #3ca55c;
+}
+
+.title {
+
+    margin-left: 30%
+}
+
+.title h3 {
+    font-family: "Righteous", sans-serif;
+}
+
+.button {
+    background-color: #BB4120;
+    border-radius: 5px;
+    width: 15%;
+    color: white;
+    height: 40px;
+    border: none;
+    margin-left: 43%;
+}
+
+.form-label {
+    font-weight: 700;
+}
+
+.lastunput {
+    width: 100%;
+}
+
+
+.Book::before {
+    content: "";
+    position: absolute;
+    width: 19%;
+    height: 30%;
+    left: 32;
+    bottom: 10px;
+    background-color: rgb(254, 194, 96);
+    z-index: -1;
+    transition: height 350ms ease 0s;
+}
+
+
+.Book:hover::before {
+    height: 60%;
+    background-color: rgb(254, 194, 96);
+
+}
+ .Visit { width: 45%;
+    color: white; height: 30px;
+    background-color: #8A9E23
+}
+.Delete{
+        width: 40%;
+        color: white;
+        height: 30px;
+        background-color: #D30820
+    } 
